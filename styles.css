@@ -1,0 +1,79 @@
+body {
+    background-color:#0f1724;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+p {
+    margin-bottom: 0px;
+}
+
+button {
+    color: white;
+    background-color: #0f1724;
+    height:5vh;
+    margin: 2px;
+    border-radius: 10px;
+    font-size: 2vh;
+    cursor: pointer;
+    width: 7vh;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    border-style:solid;
+    border-width:1px;
+}
+
+#output {
+    background-color:#1e2c42;
+    width: 28.75vh;
+    margin:2px;
+    height:6%;
+    padding: 8px;
+    font-size: 4vh;
+    color:white;
+    text-align: right;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    border-style: none;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+#calculator {
+    padding: 20px 20px 5px 20px;
+    background-color:#080c12;
+        box-shadow: 3px 3px 3px rgb(0, 0, 0);
+        border-style:solid;
+        border-width:0px;
+        border-radius:30px;
+}
+
+#title {
+    margin-top: 0px;
+    margin-left:0vh;
+    color:white;
+    font-size: 4vh;
+}
+
+#description {
+    margin-top: 0px;
+    margin-bottom: .42vh;
+    margin-left:.42vh;
+    color:white;
+    font-size: 1vh;
+}
+
+#row {
+    margin:0.7vh 0px 0px 0px;
+}
+
+#footer {
+    width:28.75vh;
+    margin-top: 0.45vh;
+    margin-bottom: .42vh;
+    margin-left:.42vh;
+    color:rgb(85, 85, 85);
+    font-size: 1vh;
+}

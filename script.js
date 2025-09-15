@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById("sign").addEventListener("click", () => {
-        output.value += " (-) ";
+        output.value += "-";
   });
 
     document.getElementById("percent").addEventListener("click", () => {
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
         output.value += "";
         outcome = output.value
         outcome = outcome.replace("%", "/100*")
-        outcome = outcome.repalce("×", "*")
+        outcome = outcome.replace("×", "*")
         outcome = outcome.replace("÷", "/")
         output.value = eval(outcome)
         console.log(outcome)
